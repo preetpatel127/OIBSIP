@@ -1,0 +1,86 @@
+#id1 {
+    flex-direction: column;
+}
+
+#id1 ul li a {
+    font-size: 1rem;
+    padding: 0px 1px;
+    padding-bottom: 8px;
+}
+
+#id2 {
+    height: 370px;
+    padding: 3px 28px;
+}
+
+#id2::before {
+    height: 480px;
+}
+
+#id2 p {
+    font-size: 13px;
+}
+
+#id3-1 {
+    flex-direction: column;
+}
+
+#id3-1 .box {
+    padding: 14px;
+    margin: 2px 0px;
+    margin-bottom: 20px;
+}
+
+#id4-1 {
+    flex-direction: column;
+}
+
+#id4-1 .box {
+    padding: 14px;
+    margin: 2px 0px;
+    margin-bottom: 20px;
+}
+
+#id5-1 {
+    flex-direction: column;
+}
+
+#id5-1 .box {
+    padding: 14px;
+    margin: 2px 0px;
+    margin-bottom: 20px;
+}
+
+#id6-1 {
+    flex-direction: column;
+}
+
+#id6-1 .box {
+    padding: 14px;
+    margin: 2px 0px;
+    margin-bottom: 20px;
+}
+
+#id7-1 {
+    flex-direction: column;
+}
+
+#id7-1 .box {
+    padding: 14px;
+    margin: 2px 0px;
+    margin-bottom: 20px;
+}
+
+#id8-1 {
+    flex-direction: column;
+}
+
+#id8-1 .box {
+    padding: 14px;
+    margin: 2px 0px;
+    margin-bottom: 20px;
+}
+
+.h-primary {
+    font-size: 26px;
+}

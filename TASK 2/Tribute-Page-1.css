@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --navbar-height: 59px;
+}
+
+#id1 {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#id1::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#img2 {
+    margin: 10px 34px;
+}
+
+#img2 img {
+    height: 53px;
+    width: 53px;
+    margin: 3px 6px;
+}
+
+#img2 p {
+    font-family: 'Baloo Bhai', cursive;
+    font-size: medium;
+    color: whitesmoke;
+}
+
+#id1 ul {
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+#id1 ul li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#id1 ul li a {
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#id1 ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+#id2 {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+}
+
+#id2::before {
+    content: "";
+    position: absolute;
+    background: url('image1.jpg') no-repeat center center/cover;
+    height: 642px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.98;
+}
+
+#id2 h1 {
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+
+#id2 p {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+}
+
+#id3 h1 {
+    font-size: 4.0rem;
+    text-align: center;
+}
+
+#id3-1 {
+    justify-content: center;
+    margin: 34px;
+    display: flex;
+}
+
+#id3-1 .a {
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#id3-1 .a p {
+    font-size: medium;
+    font-family: 'Bree Serif', serif;
+}
+
+
+#id4 h1 {
+    font-size: 4.0rem;
+    text-align: center;
+}
+
+#id4-1 {
+    justify-content: center;
+    margin: 34px;
+    display: flex;
+}
+
+#id4-1 ul li {
+    font-size: medium;
+    font-family: 'Bree Serif', serif;
+}
+
+#id4-1 .b {
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+}
+
+#id5 h1 {
+    font-size: 4.0rem;
+    text-align: center;
+}
+
+#id5-1 {
+    justify-content: center;
+    margin: 34px;
+    display: flex;
+}
+
+#id5-1 ul li {
+    font-size: medium;
+    font-family: 'Bree Serif', serif;
+}
+
+#id5-1 .c h2 {
+    font-size: x-large;
+    font-family: 'Bree Serif', serif;
+}
+
+#id5-1 .c {
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+}
+
+#id6 h1 {
+    font-size: 4.0rem;
+    text-align: center;
+}
+
+#id6-1 {
+    justify-content: center;
+    margin: 34px;
+    display: flex;
+}
+
+#id6-1 ul li {
+    font-size: medium;
+    font-family: 'Bree Serif', serif;
+}
+
+#id6-1 .d h2 {
+    font-size: x-large;
+    font-family: 'Bree Serif', serif;
+}
+
+#id6-1 .d {
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+}
+
+#id7 h1 {
+    font-size: 4.0rem;
+    text-align: center;
+}
+
+#id7-1 {
+    justify-content: center;
+    margin: 34px;
+    display: flex;
+}
+
+#id7-1 ul li {
+    font-size: medium;
+    font-family: 'Bree Serif', serif;
+}
+
+#id7-1 .e {
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+}
+
+#id8-1 .f h2 {
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Bree Serif', serif;
+}
+
+footer {
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 9px 20px;
+}
+
+.h-primary {
+    font-family: 'Bree Serif', serif;
+    font-size: 3.8rem;
+    padding: 12px;
+}
+
+.h-secondary {
+    font-family: 'Bree Serif', serif;
+    font-size: 2.3rem;
+    padding: 12px;
+}
+
+.center {
+    text-align: center;
+}
